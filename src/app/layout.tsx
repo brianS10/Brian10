@@ -15,12 +15,12 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Perfumes Brian | Fragancias Exclusivas",
+  title: "Perfumes | Fragancias Exclusivas",
   description:
     "Descubre nuestra colección exclusiva de perfumes. Fragancias premium para cada ocasión. Consulta disponibilidad y precios por WhatsApp.",
   keywords: ["perfumes", "fragancias", "perfumes exclusivos", "perfumes México"],
   openGraph: {
-    title: "Perfumes Brian | Fragancias Exclusivas",
+    title: "Perfumes | Fragancias Exclusivas",
     description:
       "Descubre nuestra colección exclusiva de perfumes. Fragancias premium para cada ocasión.",
     type: "website",

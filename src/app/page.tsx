@@ -34,7 +34,7 @@ export default async function CatalogoPage() {
       <footer className="border-t border-verde-oscuro/10 mt-16 py-8 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <p className="font-heading text-verde-oscuro/60 text-sm">
-            Perfumes Brian
+            Perfumes
           </p>
           <p className="font-body text-xs text-gray-400 mt-1">
             Fragancias que dejan huella · Contacto por WhatsApp

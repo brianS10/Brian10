@@ -22,7 +22,7 @@ export default function Header() {
 
         {/* Business name */}
         <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-crema tracking-wide">
-          Perfumes Brian
+          Perfumes
         </h1>
 
         {/* Tagline */}

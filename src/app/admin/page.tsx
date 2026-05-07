@@ -6,7 +6,7 @@ import AdminPerfumeTable from "@/components/AdminPerfumeTable";
 import AdminLogoutButton from "@/components/AdminLogoutButton";
 
 export const metadata = {
-  title: "Panel Admin | Perfumes Brian",
+  title: "Panel Admin | Perfumes",
   robots: "noindex, nofollow",
 };
 

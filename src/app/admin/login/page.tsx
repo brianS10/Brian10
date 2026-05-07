@@ -46,7 +46,7 @@ export default function AdminLoginPage() {
             </svg>
           </div>
           <h1 className="font-heading text-2xl text-verde-oscuro">Panel Admin</h1>
-          <p className="text-sm text-gray-400 font-body mt-1">Perfumes Brian</p>
+          <p className="text-sm text-gray-400 font-body mt-1">Perfumes</p>
         </div>
 
         {/* Card */}
