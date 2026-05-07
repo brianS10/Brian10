@@ -6,6 +6,9 @@ import type { Perfume, PerfumeInsert, PerfumeUpdate } from "@/types/perfume";
 
 export async function obtenerPerfumesPublicos(): Promise<Perfume[]> {
   const supabase = await createServerSupabaseClient();
+  if (!supabase) {
+    return [];
+  }
   const { data, error } = await supabase
     .from("perfumes")
     .select("*")
@@ -25,6 +28,9 @@ export async function obtenerPerfumesPublicos(): Promise<Perfume[]> {
 
 export async function obtenerTodosPerfumes(): Promise<Perfume[]> {
   const supabase = await createServerSupabaseClient();
+  if (!supabase) {
+    return [];
+  }
   const { data, error } = await supabase
     .from("perfumes")
     .select("*")

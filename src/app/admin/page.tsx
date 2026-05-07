@@ -12,6 +12,23 @@ export const metadata = {
 
 export default async function AdminPage() {
   const supabase = await createClient();
+  if (!supabase) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+        <div className="max-w-md w-full bg-white rounded-2xl shadow-sm border border-verde-oscuro/10 p-6 text-center">
+          <h1 className="font-heading text-xl text-verde-oscuro">
+            Configuración requerida
+          </h1>
+          <p className="text-sm text-gray-500 font-body mt-2">
+            Faltan las variables de Supabase. Configura
+            <span className="font-medium"> NEXT_PUBLIC_SUPABASE_URL</span> y
+            <span className="font-medium"> NEXT_PUBLIC_SUPABASE_ANON_KEY</span>.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   const {
     data: { user },
   } = await supabase.auth.getUser();
